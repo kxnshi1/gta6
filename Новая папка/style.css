@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #575656;
+    background-color: lightgray;
+}
+
+.theme {
+    display: flex;
+    gap: 5px;
+}
+
+.greeting_block {
+    background-color: #9c7047;
+    color: yellow;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.images_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.images_block img {
+    max-width: 300px;
+    border-radius: 20px;
+}
